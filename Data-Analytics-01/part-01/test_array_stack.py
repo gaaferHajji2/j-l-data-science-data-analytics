@@ -16,7 +16,7 @@ arr5 = np.concatenate((arr, arr2), axis=1)
 print(f"The Array of concatenate, with axis 1 : {arr5}")
 
 arr6 = np.concatenate((arr, arr2), axis=0)
-print(f"The Array of concatenate, with axis 1 : {arr6}")
+print(f"The Array of concatenate, with axis 0 : {arr6}")
 
 arr7 = np.dstack((arr, arr2))
 print(f"The depth stack is: {arr7}")
